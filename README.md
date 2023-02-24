@@ -1,29 +1,24 @@
 <p align="center">
-  <img width="180" src="./public/logo.png" alt="ChatGPT">
-  <h1 align="center">ChatGPT</h1>
-  <p align="center">ChatGPT Desktop Application (Mac, Windows and Linux)</p>
+  <img width="180" src="https://phind.com/images/favicon.png" alt="Phind">
+  <h1 align="center">Phind</h1>
+  <p align="center">Phind Desktop Application (Mac, Windows and Linux)</p>
 </p>
 
 [![English badge](https://img.shields.io/badge/%E8%8B%B1%E6%96%87-English-blue)](./README.md)
-[![简体中文 badge](https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-Simplified%20Chinese-blue)](./README-ZH_CN.md)\
+[![简体中文 badge](https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-Simplified%20Chinese-blue)](./README-ZH_CN.md)
+
 ![License](https://img.shields.io/badge/License-Apache%202-green.svg)
-![visitor](https://visitor-badge.glitch.me/badge?page_id=lencx.chatgpt)
-[![ChatGPT downloads](https://img.shields.io/github/downloads/lencx/ChatGPT/total.svg?style=flat-square)](https://github.com/lencx/ChatGPT/releases)
-[![chat](https://img.shields.io/badge/chat-discord-blue?style=flat&logo=discord)](https://discord.gg/aPhCRf4zZr)
-[![lencx](https://img.shields.io/badge/follow-lencx__-blue?style=flat&logo=Twitter)](https://twitter.com/lencx_)
+![visitor](https://visitor-badge.glitch.me/badge?page_id=boynTeam.phind)
+[![ChatGPT downloads](https://img.shields.io/github/downloads/boynTeam/Phind/total.svg?style=flat-square)](https://github.com/boynTeam/Phind/releases)
+[![lencx](https://img.shields.io/badge/follow-0xmuller_-blue?style=flat&logo=Twitter)](https://twitter.com/0xMuller)
 
-<!-- [![lencx](https://img.shields.io/twitter/follow/lencx_.svg?style=social)](https://twitter.com/lencx_) -->
+<a href="https://www.buymeacoffee.com/0xmuller" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 145px !important;" ></a>
 
-<!-- [![中文版 badge](https://img.shields.io/badge/%E4%B8%AD%E6%96%87-Traditional%20Chinese-blue)](./README-ZH.md) -->
+**It is an unofficial project intended for personal learning and research purposes only. During the time that the Phind desktop application was open-sourced, it received a lot of attention, and I would like to thank everyone for their support. However, as things have developed, there are two issues that seriously affect the project's next development plan:**
 
-<a href="https://www.buymeacoffee.com/lencx" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 145px !important;" ></a>
+# Thanks
 
-**It is an unofficial project intended for personal learning and research purposes only. During the time that the ChatGPT desktop application was open-sourced, it received a lot of attention, and I would like to thank everyone for their support. However, as things have developed, there are two issues that seriously affect the project's next development plan:**
-
-- **Some people have used it for repackaging and selling for profit.**
-- **The name and icon of ChatGPT may be involved in infringement issues.**
-
-**New repository: https://github.com/lencx/nofwl**
+Big thanks to [lencx](https://twitter.com/lencx_), appreciate your work at [ChatGPT Desktop](https://github.com/lencx/ChatGPT)
 
 ---
 
