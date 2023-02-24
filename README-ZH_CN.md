@@ -131,20 +131,20 @@
 
 ## ⚙️ 应用配置
 
-| 平台    | 路径                      |
-| ------- | ------------------------- |
-| Linux   | `/home/lencx/.chatgpt`    |
-| macOS   | `/Users/lencx/.chatgpt`   |
-| Windows | `C:\Users\lencx\.chatgpt` |
+| 平台    | 路径                          |
+| ------- | ----------------------------- |
+| Linux   | `/home/${username}/.phind`    |
+| macOS   | `/Users/${username}/.phind`   |
+| Windows | `C:\Users\${username}\.phind` |
 
-- `[.chatgpt]` - 应用配置根路径
-  - `chat.conf.json` - 应用喜好配置
-  - `chat.awesome.json` - 自定义 URL 列表，类似于浏览器书签。可以将任意 URL 作为主窗口或托盘窗口 (**Control Conter -> Awesome**)
-  - `chat.model.json` - ChatGPT 输入提示，通过斜杠命令来快速完成输入，主要包含三部分:
+- `[.phind]` - 应用配置根路径
+  - `phind.conf.json` - 应用喜好配置
+  - `phind.awesome.json` - 自定义 URL 列表，类似于浏览器书签。可以将任意 URL 作为主窗口或托盘窗口 (**Control Conter -> Awesome**)
+  - `phind.model.json` - Phind 输入提示，通过斜杠命令来快速完成输入，主要包含三部分:
     - `user_custom` - 需要手动录入 (**Control Conter -> Language Model -> User Custom**)
     - `sync_prompts` - 从 [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) 同步数据 (**Control Conter -> Language Model -> Sync Prompts**)
     - `sync_custom` - 同步自定义的 json 或 csv 文件数据，支持本地和远程 (**Control Conter -> Language Model -> Sync Custom**)
-  - `chat.model.cmd.json` - 过滤（是否启用）和排序处理后的斜杠命令数据
+  - `phind.model.cmd.json` - 过滤（是否启用）和排序处理后的斜杠命令数据
   - `[cache_model]` - 缓存同步或录入的数据
     - `chatgpt_prompts.json` - 缓存 `sync_prompts` 数据
     - `user_custom.json` - 缓存 `user_custom` 数据
@@ -189,13 +189,13 @@
 
 ## ❓ 常见问题
 
-### 不能打开 ChatGPT
+### 不能打开 Phind
 
-如果升级应用后无法打开，请尝试清除配置，它位于此目录 `~/.chatgpt/*`。
+如果升级应用后无法打开，请尝试清除配置，它位于此目录 `~/.phind/*`。
 
 ### 主窗口已经登录，但是系统托盘窗口显示未登录
 
-可通过菜单项里的 `Restart ChatGPT` 重启应用来修复这个问题（`Menu -> Preferences -> Restart ChatGPT`）。
+可通过菜单项里的 `Restart Phind` 重启应用来修复这个问题（`Menu -> Preferences -> Restart Phind`）。
 
 ### 它是否安全？
 

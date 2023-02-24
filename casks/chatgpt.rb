@@ -11,18 +11,18 @@ cask "chatgpt" do
 
   name "ChatGPT"
   desc "Desktop wrapper for OpenAI ChatGPT"
-  homepage "https://github.com/lencx/ChatGPT#readme"
+  homepage "https://github.com/boynTeam/Phind#readme"
 
   app "ChatGPT.app"
 
-  uninstall quit: "com.lencx.chatgpt"
+  uninstall quit: "com.boynn.phind"
 
   zap trash: [
-    "~/.chatgpt",
-    "~/Library/Caches/com.lencx.chatgpt",
-    "~/Library/HTTPStorages/com.lencx.chatgpt.binarycookies",
-    "~/Library/Preferences/com.lencx.chatgpt.plist",
-    "~/Library/Saved Application State/com.lencx.chatgpt.savedState",
-    "~/Library/WebKit/com.lencx.chatgpt",
+    "~/.phind",
+    "~/Library/Caches/com.boynn.phind",
+    "~/Library/HTTPStorages/com.boynn.phind.binarycookies",
+    "~/Library/Preferences/com.boynn.phind.plist",
+    "~/Library/Saved Application State/com.boynn.phind.savedState",
+    "~/Library/WebKit/com.boynn.phind",
   ]
 end

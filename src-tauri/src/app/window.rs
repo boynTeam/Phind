@@ -26,7 +26,7 @@ pub fn tray_window(handle: &tauri::AppHandle) {
       .initialization_script(include_str!("../scripts/core.js"))
       .user_agent(&app_conf.ua_tray);
 
-    if app_conf.tray_origin == "https://chat.openai.com" && !app_conf.tray_dashboard {
+    if app_conf.tray_origin == "https://phind.com/" && !app_conf.tray_dashboard {
       tray_win = tray_win
         .initialization_script(include_str!("../vendors/floating-ui-core.js"))
         .initialization_script(include_str!("../vendors/floating-ui-dom.js"))
@@ -66,22 +66,18 @@ pub fn dalle2_window(
 
   if app.get_window("dalle2").is_none() {
     tauri::async_runtime::spawn(async move {
-      WindowBuilder::new(
-        &app,
-        label,
-        WindowUrl::App("https://labs.openai.com".into()),
-      )
-      .title(title.unwrap_or_else(|| "DALL·E 2".to_string()))
-      .resizable(true)
-      .fullscreen(false)
-      .inner_size(800.0, 600.0)
-      .always_on_top(false)
-      .theme(Some(theme))
-      .initialization_script(include_str!("../scripts/core.js"))
-      .initialization_script(&query)
-      .initialization_script(include_str!("../scripts/dalle2.js"))
-      .build()
-      .unwrap();
+      WindowBuilder::new(&app, label, WindowUrl::App("https://phind.com".into()))
+        .title(title.unwrap_or_else(|| "DALL·E 2".to_string()))
+        .resizable(true)
+        .fullscreen(false)
+        .inner_size(800.0, 600.0)
+        .always_on_top(false)
+        .theme(Some(theme))
+        .initialization_script(include_str!("../scripts/core.js"))
+        .initialization_script(&query)
+        .initialization_script(include_str!("../scripts/dalle2.js"))
+        .build()
+        .unwrap();
     });
   } else {
     let dalle2_win = app.get_window("dalle2").unwrap();

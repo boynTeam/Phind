@@ -19,7 +19,7 @@ export default function About() {
     <div className="about">
       <Tabs
         items={[
-          { label: 'About ChatGPT', key: 'about', children: <AboutChatGPT /> },
+          { label: 'About Phind', key: 'about', children: <AboutChatGPT /> },
           { label: 'Update Log', key: 'log', children: <LogTab content={logContent} /> },
         ]}
       />
@@ -33,21 +33,21 @@ const AboutChatGPT = () => {
       <Tag>ChatGPT Desktop Application (Mac, Windows and Linux)</Tag>
       <p>
         🕒 History versions:{' '}
-        <a href="https://github.com/lencx/ChatGPT/releases" target="_blank">
+        <a href="https://github.com/boynTeam/Phind/releases" target="_blank">
           lencx/ChatGPT/releases
         </a>
       </p>
       <p>
         It is just a wrapper for the
-        <a href="https://chat.openai.com" target="_blank" title="https://chat.openai.com">
+        <a href="https://phind.com/" target="_blank" title="https://phind.com/">
           {' '}
-          OpenAI ChatGPT{' '}
+          Phind Search Engine{' '}
         </a>
         website, no other data transfer exists (you can check the{' '}
         <a
-          href="https://github.com/lencx/ChatGPT"
+          href="https://github.com/boynTeam/Phind"
           target="_blank"
-          title="https://github.com/lencx/ChatGPT"
+          title="https://github.com/boynTeam/PhindT"
         >
           {' '}
           source code{' '}
@@ -57,17 +57,13 @@ const AboutChatGPT = () => {
         thanks!
       </p>
       <p className="imgs">
-        <a href="https://www.buymeacoffee.com/lencx" target="_blank">
+        <a href="https://www.buymeacoffee.com/0xmuller" target="_blank">
           <img
             src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png"
             alt="Buy Me A Coffee"
           />
         </a>{' '}
         <br />
-        <img
-          width="200"
-          src="https://user-images.githubusercontent.com/16164244/207228025-117b5f77-c5d2-48c2-a070-774b7a1596f2.png"
-        ></img>
       </p>
     </div>
   );
@@ -78,7 +74,7 @@ const LogTab = ({ content }: { content: string }) => {
     <div>
       <p>
         Ref:{' '}
-        <a href="https://github.com/lencx/ChatGPT/blob/main/UPDATE_LOG.md" target="_blank">
+        <a href="https://github.com/boynTeam/Phind/blob/main/UPDATE_LOG.md" target="_blank">
           lencx/ChatGPT/UPDATE_LOG.md
         </a>
       </p>

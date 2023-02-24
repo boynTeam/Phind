@@ -207,7 +207,7 @@ Currently, only JSON and CSV are supported for synchronizing custom files, and t
 
 ### Can't open ChatGPT
 
-If you cannot open the application after the upgrade, please try to clear the configuration file, which is in the `~/.chatgpt/*` directory.
+If you cannot open the application after the upgrade, please try to clear the configuration file, which is in the `~/.phind/*` directory.
 
 ### Out of sync login status between multiple windows
 

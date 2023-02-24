@@ -22,13 +22,13 @@ async fn main() {
   utils::create_chatgpt_prompts();
   let context = tauri::generate_context!();
 
-  gpt::download_list("chat.download.json", "download", None, None);
-  gpt::download_list("chat.notes.json", "notes", None, None);
+  gpt::download_list("phind.download.json", "download", None, None);
+  gpt::download_list("phind.notes.json", "notes", None, None);
 
   let mut log = tauri_plugin_log::Builder::default()
     .targets([
       // LogTarget::LogDir,
-      // LOG PATH: ~/.chatgpt/ChatGPT.log
+      // LOG PATH: ~/.phind/ChatGPT.log
       LogTarget::Folder(utils::app_root()),
       LogTarget::Stdout,
       LogTarget::Webview,

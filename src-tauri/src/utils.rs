@@ -12,7 +12,7 @@ use tauri::updater::UpdateResponse;
 use tauri::{utils::config::Config, AppHandle, Manager, Wry};
 
 pub fn app_root() -> PathBuf {
-  tauri::api::path::home_dir().unwrap().join(".chatgpt")
+  tauri::api::path::home_dir().unwrap().join(".phind")
 }
 
 pub fn get_tauri_conf() -> Option<Config> {

@@ -1,7 +1,7 @@
 // *** Core Script - IPC ***
 
 const uid = () => window.crypto.getRandomValues(new Uint32Array(1))[0];
-function transformCallback(callback = () => {}, once = false) {
+function transformCallback(callback = () => { }, once = false) {
   const identifier = uid();
   const prop = `_${identifier}`;
   Object.defineProperty(window, prop, {
@@ -77,7 +77,7 @@ async function init() {
       topDom.id = "chatgpt-app-window-top";
       document.body.appendChild(topDom);
 
-      if (window.location.host === 'chat.openai.com') {
+      if (window.location.host === 'phind.com') {
         const nav = document.body.querySelector('nav');
         if (nav) {
           const currentPaddingTop = parseInt(window.getComputedStyle(document.querySelector('nav'), null).getPropertyValue('padding-top').replace('px', ''), 10);
@@ -103,11 +103,11 @@ async function init() {
 
   // Fix Chinese input method "Enter" on Safari
   document.addEventListener("keydown", (e) => {
-    if(e.keyCode == 229) e.stopPropagation();
+    if (e.keyCode == 229) e.stopPropagation();
   }, true)
 
-  if (window.location.host === 'chat.openai.com') {
-    window.__sync_prompts = async function() {
+  if (window.location.host === 'phind.com') {
+    window.__sync_prompts = async function () {
       await invoke('sync_prompts', { time: Date.now() });
     }
   }

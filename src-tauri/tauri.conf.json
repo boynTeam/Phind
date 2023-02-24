@@ -6,7 +6,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "ChatGPT",
+    "productName": "Phind",
     "version": "0.11.0"
   },
   "tauri": {
@@ -18,7 +18,7 @@
       "fs": {
         "all": true,
         "scope": [
-          "$HOME/.chatgpt/**"
+          "$HOME/.phind/**"
         ]
       }
     },
@@ -42,8 +42,8 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.lencx.chatgpt",
-      "longDescription": "ChatGPT Desktop Application",
+      "identifier": "com.boynn.phind",
+      "longDescription": "Phind Desktop Application",
       "macOS": {
         "entitlements": null,
         "exceptionDomain": "",
@@ -51,7 +51,7 @@
         "providerShortName": null,
         "signingIdentity": null
       },
-      "shortDescription": "ChatGPT",
+      "shortDescription": "Phind",
       "targets": "all",
       "windows": {
         "certificateThumbprint": null,

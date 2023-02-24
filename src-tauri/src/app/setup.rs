@@ -76,7 +76,7 @@ pub fn init(app: &mut App) -> std::result::Result<(), Box<dyn std::error::Error>
           .hidden_title(true);
       }
 
-      if url == "https://chat.openai.com" && !app_conf2.main_dashboard {
+      if url == "https://phind.com/" && !app_conf2.main_dashboard {
         main_win = main_win
           .initialization_script(include_str!("../vendors/floating-ui-core.js"))
           .initialization_script(include_str!("../vendors/floating-ui-dom.js"))

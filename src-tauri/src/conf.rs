@@ -16,7 +16,7 @@ pub const GITHUB_PROMPTS_CSV_URL: &str =
   "https://raw.githubusercontent.com/f/awesome-chatgpt-prompts/main/prompts.csv";
 
 pub const APP_CONF_PATH: &str = "chat.conf.json";
-pub const CHATGPT_URL: &str = "https://chat.openai.com";
+pub const CHATGPT_URL: &str = "https://phind.com/";
 pub const UA_MOBILE: &str = "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1";
 
 macro_rules! pub_struct {
